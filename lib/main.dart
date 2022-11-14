@@ -67,7 +67,9 @@ class _MyHomePageState extends State<MyHomePage> {
     hasil.addAll(buket1);
     hasil.addAll(buket2);
     hasil.addAll(buket3);
-    setState(() {});
+    setState(() {
+      hasil.sort();
+    });
   }
 
   @override
